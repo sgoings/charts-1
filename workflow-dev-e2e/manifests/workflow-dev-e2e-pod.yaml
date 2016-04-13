@@ -9,7 +9,7 @@ spec:
   restartPolicy: Never
   containers:
   - name: tests
-    image: quay.io/deisci/workflow-e2e:canary
+    image: quay.io/deisci/workflow-e2e:git-0b0156d
     imagePullPolicy: Always
     env:
       - name: GINKGO_NODES
